@@ -1,0 +1,102 @@
+#storeLogo{
+    height: 25px;
+    width: 65px;
+    float: right;
+    
+}
+
+body{
+    background-color: rgb(196, 189, 179);
+}
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    font-family: 'Solway', serif;
+  }
+  
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  }
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }  
+
+
+  #header{
+      display: flex;
+      flex-direction: row;
+      float: right;
+      margin-right: 350px;
+      margin-bottom: 15px;
+  }
+  span{
+      font-size: 1.5em;
+      margin-right: 15px;
+      font-family: 'Solway', serif;
+  }
+
+  .shopItem{
+      height: 500px;
+      width: 350px;
+      margin-top: 25px;
+      margin-bottom: 25px;
+      margin-right: 25px;
+  }
+  .wideShopItem{
+      height: 700px;
+      width: 1000px;
+      margin-top: 25px;
+      margin-bottom: 25px;
+  }
+  .inline{
+    display: flex;
+    flex-direction: row;
+  }
+  footer{
+      background-color: rgb(24, 24, 24);
+      height: 250px;
+      padding-left: 25px;
+      padding-top: 25px;
+      padding-right: 25px;
+      padding-bottom: 25px;
+  }
+  #footerImage{
+      height:250px;
+      width: 250px;
+      float: right;
+    
+  }
+  #goodBye{
+      float:right;
+      display: block;
+      color: rgb(226, 225, 225);
+  }
