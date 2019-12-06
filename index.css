@@ -116,6 +116,15 @@ body{
       
       float: none;
     }
+    .wrap{
+      height: 250px;
+      width: 300px;
+      margin-left: 0;
+    }
+    #screenImage{
+      height: 250px;
+      width: 300px;
+    }
   }
 
   body,#slider, .wrap, #screenImage{

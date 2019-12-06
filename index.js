@@ -17,7 +17,7 @@ $(document).ready(function () {
         changeImage();
     });
     $('#arrow-left').click(function () {
-        changeImage();
+        backImage();
     })
 })
 var slider = [];
