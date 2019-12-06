@@ -134,6 +134,15 @@ body{
     #arrow-left{
       margin-left: 0;
     }
+    #footerImage{
+      height: 150px;
+      width: 150px;
+      
+    }
+    footer{
+      height: 350px;
+      color: grey;
+    }
   }
 
   body,#slider, .wrap, #screenImage{
