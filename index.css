@@ -89,6 +89,7 @@ body{
       padding-top: 25px;
       padding-right: 25px;
       padding-bottom: 25px;
+     
   }
   #footerImage{
       height:250px;
@@ -117,59 +118,41 @@ body{
       float: none;
     }
     .wrap{
-      height: 250px;
-      width: 300px;
+      height: 150px;
+      width: 250px;
       margin-left: 0;
+      display: block;
     }
     #screenImage{
-      height: 250px;
-      width: 300px;
+      height: 150px;
+      width: 250px;
+      display: block;
+    }
+    #arrow-right{
+      margin-right: 0;
+    }
+    #arrow-left{
+      margin-left: 0;
     }
   }
 
   body,#slider, .wrap, #screenImage{
-    margin:0;
-    padding:0;
-    font-family: Arial, Helvetica, sans-serif;
-    width: 100%;
-    height: 100vh;
-    
-    
+    font-family: Arial, Helvetica, sans-serif; 
   }
 .wrap{
   height: 500px;
-  width: 700px;
+ 
   margin-bottom: 50px;
   margin-left: 50px;
   margin-top: 50px;
 }
 #screenImage{
-  height: 500px;
-  width: 700px;
+  max-height: 500px;
+  max-width: 700px;
 }
-  .wrap{position:relative}
-
-  .screenImage{
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    overflow: hidden;
-  }
-
-  .slide1{background-image: url('images/elslide1.png')}
-  .slide2{background-image: url('images/elslide2.png')}
-  .slide3{background-image: url('images/elslide3.png')}
-  .slide4{background-image: url('images/elslide4.png')}
-
-  .slideImage{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
   
-  #wrap span{
+  
+  .wrap span{
     font-size: 5rem;
     color: black;
   }
@@ -181,16 +164,17 @@ body{
     width: 0;
     height: 0;
     border-style: solid;
+    display: inline;
   }
   #arrow-left{
     border-width: 30px 40px 30px 0;
     border-color: transparent #fff transparent transparent;
     left: 0;
-    margin-left: 30px;
+    
   }
   #arrow-right{
     border-width: 30px 0 30px 40px;
     border-color: transparent transparent transparent #fff;
     right: 0;
-    margin-right: 30px;
+    
   }
