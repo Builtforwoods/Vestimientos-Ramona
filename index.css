@@ -84,7 +84,7 @@ body{
   }
   footer{
       background-color: rgb(24, 24, 24);
-      height: 250px;
+      height: 300px;
       padding-left: 25px;
       padding-top: 25px;
       padding-right: 25px;
@@ -143,6 +143,10 @@ body{
       height: 350px;
       color: grey;
     }
+    #slidesText{
+      left: 20px;
+      font-size: 4rem;
+    }
   }
 
   body,#slider, .wrap, #screenImage{
@@ -186,4 +190,9 @@ body{
     border-color: transparent transparent transparent #fff;
     right: 0;
     
+  }
+  #slidesText{
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
   }

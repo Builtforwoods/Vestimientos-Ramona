@@ -27,6 +27,12 @@ slider[1] = 'images/elslide2.png';
 slider[2] = 'images/elslide3.png';
 slider[3] = 'images/elslide4.png';
 
+var sliderText = [];
+sliderText[0] = "Hombres";
+sliderText[1] = "Mujeres";
+sliderText[2] = "Artesanias";
+sliderText[3] = "Ventas";
+
 var i = 0;
 function changeImage() {
 
@@ -37,6 +43,7 @@ function changeImage() {
     }
     console.log(slider[i]);
     $("#screenImage").attr('src', slider[i]);
+    $("#slidesText").text(sliderText[i]);
 }
 
 function backImage() {
@@ -48,4 +55,5 @@ function backImage() {
     }
     console.log(slider[i]);
     $('#screenImage').attr('src', slider[i]);
+    $("#slidesText").text(sliderText[i]);
 }
