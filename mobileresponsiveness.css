@@ -1,0 +1,250 @@
+@media screen and (height: 731px) {
+    .shopItem{
+      height: 200px;
+      width: 150px;
+      display: block;
+    }
+    .wideShopItem{
+      height: 200px;
+      width: 350px;
+      display: block;
+    }
+    #header{
+      
+      float: none;
+    }
+    .wrap{
+      height: 150px;
+      width: 250px;
+      margin-left: 0;
+      display: block;
+    }
+    #screenImage{
+      height: 150px;
+      width: 250px;
+      display: block;
+    }
+    #arrow-right{
+      margin-right: 0;
+    }
+    #arrow-left{
+      margin-left: 0;
+    }
+    #footerImage{
+      height: 150px;
+      width: 150px;
+      
+    }
+    footer{
+      height: 350px;
+      color: grey;
+    }
+    #slidesText{
+      left: 20px;
+      font-size: 4rem;
+    }
+  }
+
+
+  @media screen and (height: 823px) {
+    .shopItem{
+      height: 200px;
+      width: 150px;
+      display: block;
+    }
+    .wideShopItem{
+      height: 200px;
+      width: 350px;
+      display: block;
+    }
+    #header{
+      
+      float: none;
+    }
+    .wrap{
+      height: 150px;
+      width: 250px;
+      margin-left: 0;
+      display: block;
+    }
+    #screenImage{
+      height: 150px;
+      width: 250px;
+      display: block;
+    }
+    #arrow-right{
+      margin-right: 0;
+    }
+    #arrow-left{
+      margin-left: 0;
+    }
+    #footerImage{
+      height: 150px;
+      width: 150px;
+      
+    }
+    footer{
+      height: 350px;
+      color: grey;
+    }
+    #slidesText{
+      left: 20px;
+      font-size: 4rem;
+    }
+  }
+
+
+  @media screen and (height: 568px) {
+    .shopItem{
+      height: 175px;
+      width: 125px;
+      display: block;
+    }
+    .wideShopItem{
+      height: 175px;
+      width: 300px;
+      display: block;
+    }
+    #header{
+      
+      float: none;
+    }
+    .wrap{
+      height: 150px;
+      width: 250px;
+      margin-left: 0;
+      display: block;
+    }
+    #screenImage{
+      height: 150px;
+      width: 250px;
+      display: block;
+    }
+    #arrow-right{
+      margin-right: 0;
+    }
+    #arrow-left{
+      margin-left: 0;
+    }
+    #footerImage{
+      height: 150px;
+      width: 150px;
+      
+    }
+    footer{
+      height: 350px;
+      color: grey;
+    }
+    #slidesText{
+      left: 20px;
+      font-size: 4rem;
+    }
+  }
+
+  @media screen and (height: 1024px) {
+    .shopItem{
+      height: 500px;
+      width: 350px;
+      display: block;
+    }
+    .wideShopItem{
+      height: 500px;
+      width: 750px;
+      display: block;
+    }
+    #header{
+      font-size: 3rem;
+      float: none;
+    }
+    #storeLogo{
+        height: 75px;
+        width: 150px;
+    }
+    .wrap{
+      height: 150px;
+      width: 250px;
+      margin-left: 0;
+      display: block;
+    }
+    #screenImage{
+      height: 400px;
+      width: 800px;
+      display: block;
+      margin-bottom: 50px;
+    }
+    #arrow-right{
+      margin-right: 0;
+    }
+    #arrow-left{
+      margin-left: 0;
+    }
+    #footerImage{
+      height: 150px;
+      width: 150px;
+      
+    }
+    footer{
+        margin-top: 400px;
+      height:550px;
+      color: grey;
+      font-size: 2rem;
+    }
+    #slidesText{
+      left: 20px;
+      font-size: 4rem;
+    }
+  }
+
+  @media screen and (height: 1366px) {
+    .shopItem{
+      height: 500px;
+      width: 350px;
+      display: block;
+    }
+    .wideShopItem{
+      height: 500px;
+      width: 750px;
+      display: block;
+    }
+    #header{
+      font-size: 3rem;
+      float: none;
+    }
+    #storeLogo{
+        height: 75px;
+        width: 150px;
+    }
+    .wrap{
+      height: 150px;
+      width: 250px;
+      margin-left: 0;
+      display: block;
+    }
+    #screenImage{
+      height: 400px;
+      width: 800px;
+      display: block;
+      margin-bottom: 50px;
+    }
+    #arrow-right{
+      margin-right: 0;
+    }
+    #arrow-left{
+      margin-left: 0;
+    }
+    #footerImage{
+      height: 150px;
+      width: 150px;
+      
+    }
+    footer{
+        margin-top: 400px;
+      height:550px;
+      color: grey;
+      font-size: 2rem;
+    }
+    #slidesText{
+      left: 20px;
+      font-size: 4rem;
+    }
+  }
